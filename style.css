@@ -1,0 +1,27 @@
+body{
+background-color:gold;
+height:100%;
+width:100%;
+margin:0;
+}
+.outer-container{
+background-color:blue;
+height:300px;
+width:500px;
+float:left;
+position:absolute;
+left:800px;
+top:300px;
+border: 10px solid white;
+border-radius:35px;
+
+}
+.outer-container> h1{
+    text-align: center;
+    display: block;
+    padding-top:25px;
+    color:gold;
+    font-style: italic;
+    font-size: 3em;
+}
+
